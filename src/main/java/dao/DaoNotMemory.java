@@ -8,8 +8,7 @@ import java.util.List;
 
 public class DaoNotMemory {
 
-    public void DaoNotMemory() {
-
+    public DaoNotMemory() {
     }
 
     public Animal getOne() {

@@ -8,14 +8,14 @@ import java.util.List;
 public class DaoMemory {
     private final List<Animal> animals = new ArrayList<>();
 
-    public List<Animal> getListCollection() {
-        return animals;
-    }
-
     public DaoMemory() {
         animals.add(new Animal(10L, "Mouse"));
         animals.add(new Animal(11L, "Dog"));
         animals.add(new Animal(12L, "Cat"));
+    }
+
+    public List<Animal> getListCollection() {
+        return animals;
     }
 
     public List<Animal> listCollection(Animal animal) {

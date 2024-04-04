@@ -6,7 +6,6 @@ import jakarta.enterprise.context.ApplicationScoped;
 @ApplicationScoped
 @Path("/animal")
 public class QueryTest {
-
     public QueryTest() {
     }
 

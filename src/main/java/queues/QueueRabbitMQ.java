@@ -2,12 +2,14 @@ package queues;
 
 import entities.Animal;
 import dao.DaoMemory;
+
 import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
 import io.smallrye.reactive.messaging.annotations.Blocking;
 
+
 public class QueueRabbitMQ {
-    DaoMemory daoMemory;
+    private DaoMemory daoMemory;
 
     public QueueRabbitMQ() {
         daoMemory = new DaoMemory();

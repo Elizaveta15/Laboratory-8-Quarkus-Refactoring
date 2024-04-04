@@ -6,7 +6,7 @@ import java.sql.*;
 
 
 public class DaoPostgres {
-    Connection con;
+    private Connection con;
 
     public DaoPostgres() throws SQLException {
         con = DriverManager.getConnection(

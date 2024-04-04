@@ -1,7 +1,7 @@
 package entities;
 
 public class Mammal extends Animal {
-    public Integer numberNipples;
+    private Integer numberNipples;
 
     public Mammal(Animal animal) {
         super(animal);
